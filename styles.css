@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400;1,700&family=Kanit:wght@300&display=swap');
+
+@media (color) {
+  p {
+    color: black;
+  }
+}
+
+html{
+    font-family: 'Cabin', sans-serif;
+    font-family: 'Kanit', sans-serif;
+}
+
+#header-img{
+    width: 100px;
+}
+
+h1{
+    font-size: 30px;
+    text-align: left;
+    color: #000000;
+    padding: 2rem;
+    }
+
+#nav-bar {
+    position: fixed;
+    top: 0px;
+    width: 100%;
+}
+
+div {
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+    text-align: center;
+    width:100%;
+    padding: 0;
+    margin: 0;
+}
+
+#main-body{
+    width: 60%;
+}
+
+.body-text{
+    text-align: center;
+}
+
+ul.nav-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+}
+
+li.nav-list {
+    float: left;
+}
+
+li a.nav-link {
+    display: block;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 2.2rem 1rem;
+    text-decoration: none;
+    transition: .2s;
+}
+
+li a.nav-link:hover{
+    color: gray;
+    transform: scale(1.2);
+}
+
+iframe{
+    transition: .2s;
+}
+
+iframe:hover{
+    transform: scale(1.05);
+}
+
+@keyframes wiggle {
+    0% { transform: rotate(0deg); }
+    80% { transform: rotate(0deg); }
+    85% { transform: rotate(5deg); }
+    95% { transform: rotate(-5deg); }
+    100% { transform: rotate(0deg); }
+}
+
+img.wiggle:hover {
+    display: inline-block;
+    animation: wiggle .5s;
+}
+
+input[type=email] {
+    background-color: white;
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    padding-left: 10px;
+    padding: .5rem;
+    border-radius: .5rem;
+}
+
+.review{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 1rem;
+    width: 250px;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 10px 20px #00000029;
+    transition: .2s;
+}
+
+.review:hover{
+    transform: scale(1.05);
+}
+
+#body-end{
+    flex-direction: column;
+}
+
+label{
+    display: flex;
+    align-items: center;
+}
+
+.label-title{
+    display: flex;
+    align-items: center;
+    font-size: 1.5rem;
+}
+
+.email-input{
+    display: block;
+    width: 100%;
+    padding: 3rem;
+    color: #000000;
+    background-color: #fff;
+    border-radius: .5rem;
+}
+
+.submit-button{
+    width: 20%;
+    font-size: 1rem;
+    background-color: rgba(0, 0, 44, 0.37);
+    color: white;
+    height: 2rem;
+    border: 0px;
+    border-radius: .75rem;
+}
